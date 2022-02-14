@@ -10,11 +10,6 @@ class CounterTest {
 
 	Counter counter = new Counter();
 
-	@BeforeEach
-	void beforeEach() {
-		Counter counter = new Counter();
-	}
-
 	@Test
 	@DisplayName("初期状態")
 	void test1() {
